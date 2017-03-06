@@ -3,6 +3,8 @@ var bodyParser = require('body-parser');
 var db         = require('./server/utils/DbUtils');
 var app        = express();
 
+app.set('port', (process.env.PORT || 80));
+
 db.setUpConnection();
 app.use(express.static(__dirname + '/'));
 app.use(bodyParser.json());
@@ -44,6 +46,6 @@ app.post('/tasks', function(req, res){
 });
 
 
-app.listen(80);
+app.listen(app.get('port'));
 
 console.log('server started');
