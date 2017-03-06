@@ -1,0 +1,33 @@
+{
+  "name": "makhno-todo-lists",
+  "version": "1.0.0",
+  "description": "Simple toDo lists",
+  "main": "index.js",
+  "dependencies": {
+    "bootbox": "^4.4.0",
+    "body-parser": "^1.17.0",
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.1",
+    "jquery": "^3.1.1",
+    "mongoose": "^4.8.5",
+    "mustache": "^2.3.0",
+    "requirejs": "^2.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stanislavcheg/todo-lists-ruby-course.git"
+  },
+  "keywords": [
+    "todolist"
+  ],
+  "author": "Makhno Stanislav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stanislavcheg/todo-lists-ruby-course/issues"
+  },
+  "homepage": "https://github.com/Stanislavcheg/todo-lists-ruby-course#readme"
+}

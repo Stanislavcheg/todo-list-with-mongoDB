@@ -1,0 +1,8 @@
+{
+  "name": "makhno-todo-lists",
+  "description": "Simple toDo lists",
+  "repository": "git+https://github.com/Stanislavcheg/todo-lists-ruby-course.git",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "todolist"],
+  "image": "heroku/nodejs"
+}
