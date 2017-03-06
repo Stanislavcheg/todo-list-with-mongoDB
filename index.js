@@ -1,6 +1,6 @@
 var express    = require('express');
 var bodyParser = require('body-parser');
-var db         = require('server/utils/DbUtils');
+var db         = require('./server/utils/DbUtils');
 var app        = express();
 
 db.setUpConnection();
